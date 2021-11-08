@@ -1,0 +1,140 @@
+body {
+  background-color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0%;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+.bio {
+  line-height: 30px;
+}
+
+.bg-dark {
+  background-color: rgb(87, 87, 87);
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-photo {
+  width: 500px;
+}
+
+.bio-body-div {
+  padding-right: 40px;
+}
+
+#bio-text {
+  padding-bottom: 50px;
+}
+
+#bio-body {
+  font-size: 40px;
+}
+
+p {
+  padding-right: 15px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.link-image {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  width: 500px;
+  height: 500px;
+  transition: transform 0.5s;
+  object-fit: cover;
+}
+
+.link-image:hover {
+  transform: scale(1.1);
+}
+
+.standard-padding {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pic-desc {
+  font-weight: 100;
+  font-size: 50px;
+}
+
+#desc-body-1,
+#desc-body-3 {
+  padding-right: 40px;
+}
+
+#desc-body-2,
+#desc-body-4 {
+  padding-left: 40px;
+}
+
+h3 {
+  font-size: 64px;
+  font-weight: 200;
+}
+
+#rig-photo-1,
+#rig-photo-2,
+#rig-photo-3,
+#rig-photo-4,
+#float-photo-1,
+#float-photo-2,
+#float-photo-3,
+#robotics-photo-3,
+#nft-photo-1,
+#nft-photo-2,
+#nft-photo-3,
+#stock-photo-1,
+#stock-photo-2,
+#stock-photo-3 {
+  width: 400px;
+}
+
+#robotics-photo-1 {
+  height: 500px;
+}
+
+#robotics-photo-2 {
+  height: 400px;
+  object-fit: cover;
+}
+
+.home {
+  color: white;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.home-page-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pr {
+  padding-right: 100px;
+}
